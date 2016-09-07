@@ -19,7 +19,6 @@ public class Movies {
             con = DriverManager.getConnection(DBsettings.url,
                     DBsettings.user, DBsettings.pass);
             st = con.createStatement();
-            rs = st.executeQuery("Select Distinct Category FROM Movie");
             
             //while(rs.next()){
             //    System.out.println(rs.getString("Category"));

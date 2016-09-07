@@ -1,19 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Lab23</groupId>
-  <artifactId>Lab23</artifactId>
+  <groupId>jsp2</groupId>
+  <artifactId>jsp2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <resources>
-      <resource>
-        <directory>src</directory>
-        <excludes>
-          <exclude>**/*.java</exclude>
-        </excludes>
-      </resource>
-    </resources>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -33,14 +25,14 @@
       </plugin>
     </plugins>
   </build>
-   <dependencies>
+  <dependencies>
   	<dependency>
   		<groupId>mysql</groupId>
   		<artifactId>mysql-connector-java</artifactId>
   		<version>6.0.3</version>
   	</dependency>
   	<dependency>
-  		<groupId>javax.servlet</groupId>
+  		<groupId>jstl</groupId>
   		<artifactId>jstl</artifactId>
   		<version>1.2</version>
   	</dependency>
